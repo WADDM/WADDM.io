@@ -145,25 +145,7 @@ section {
 }
 
 
-/*.clin_block .col-xs-12 {
-	position: relative;
-	height: 20px;
-}
 
-.clin_block .col-sm-12 {
-	position: relative;
-	height: 340px;
-}
-
-.clin_block .col-md-12 {
-	position: relative;
-	height: 340px;
-}
-
-.clin_block .col-lg-12 {
-	position: relative;
-	height: 340px;
-}*/
 
 @media (min-width: 1023px) {
 	.clin_block {
