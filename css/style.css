@@ -22,8 +22,8 @@
 }
 
 .site-header {
-	min-height: 700px;
-	height: 100vh;
+	min-height: 540px;
+	height: 90vh;
 	background-color: $dark;
 }
 
