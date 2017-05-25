@@ -24,20 +24,41 @@
 
 
 header {
+	position: relative;
 	
 }
 
 body {
-	background-color: black;
+
+	
+
 }
 
 .site-header {
+	height: 500px;
+	background-image: url(../img/WWDn2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+
+
+
+	/*display: block;
+	max-width: 100%;
+	max-height: 100%
+	
 	position: relative;
 	background: no-repeat;
-	height: 100vh;
 	background-color: $dark;
 	background-size: contain;
-	background-position: center;
+
+	background-position: center top;*/
+
+
 
 }
 
@@ -164,22 +185,18 @@ footer {
 .login h3 {
 	margin-top: 20px;
 	margin-left: px; 
-	font-size: px;	
+	font-size: 24px;	
 }
 .about h3 {
 	margin-top: 20px;
 	font-size: px;
 	margin-left: px; 
-}
-
-.login a {
-	
 	font-size: 24px;
 }
 
-.about a {
-	font-size: 24px;
-}
+
+
+
 
 
 
@@ -190,11 +207,11 @@ footer {
 }
 .mid {
 
-	margin-top: 35%;
+	margin-top: 330px;
 }
 
 .batton_dawnlood {
-	/*margin-top: 350px;*/ 
+	/*margin-top: 350px;*/
 }
 
 
@@ -223,6 +240,7 @@ footer {
 .tex_in_hed {
 	color: #fff;
 	font-size: 18px;
+	
 	font-family: "RobotoBold";
 	position: relative;
 }
@@ -263,26 +281,76 @@ html {
 
 
 
+@media (max-width: 970px) {
+	.site-header {
+		height: 400px;
+	}
+	.mid {
+
+	margin-top: 240px;
+	}
+
+.login h3 {
+	margin-top: 20px;
+	margin-left: px; 
+	font-size: 18px;	
+}
+.about h3 {
+	margin-top: 20px;
+	font-size: px;
+	margin-left: px; 
+	font-size: 18px;
+}
+
+
+
+.logo h1 {
+	margin-top: 10px;
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.tex_in_hed {
+	font-size: 14px;
+}
+
+.btn {
+	
+	
+	margin-bottom: 20px;
+	font-size: 16px;
+	width: 100px;
+	height: 40px;
+	} 
+
+
+
+
+
+}
+
+@media (max-width: 750px) {
+	.site-header {
+		height: 300px;	
+	}
+
+	.mid {
+
+	margin-top: 150px;
+}
+
+
+
+}
+
+@media (max-width: 480px) {
+	.site-header {
+		height: 200px;
+	}
+	
+}
+
 @media (min-width: 1023px) {
-	.clin_block {
-		height: 350px;
-	}
-}
-
-@media (min-width: 320px) {
-	.clin_block {
-		height: 120px;
-	}
-}
-
-@media (min-width: 641px) {
-	.clin_block {
-		height: 300px;
-	}
-}
-
-@media (min-width: 1023px) {
-	.clin_block {
-		height: 350px;
+	
 	}
 }
