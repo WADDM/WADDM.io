@@ -18,15 +18,13 @@
 * {
 	margin: 0;
 	padding: 0;
-	text-decoration: none; 
-}
-
-* {
+	text-decoration: none;
 	outline: none;
 }
 
+
 header {
-	position: ;
+	
 }
 
 body {
@@ -36,11 +34,9 @@ body {
 .site-header {
 	position: relative;
 	background: no-repeat;
-	
 	height: 100vh;
 	background-color: $dark;
-	position: relative;
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 
 }
