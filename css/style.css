@@ -35,6 +35,7 @@ body {
 }
 
 .site-header {
+
 	height: 500px;
 	background-image: url(../img/WWDn2.png);
 	background-position: center;
@@ -98,6 +99,7 @@ footer {
 	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
 	box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
 	background-color: rgba(0,0,0,.60);
+
 	width: 100%;
 	font-family: "BebasRegular";
 }
@@ -274,6 +276,51 @@ footer {
 
 }
 
+
+.about_block {
+
+	position: relative;
+	margin: 0 auto;
+	margin-top: 35px;
+	width: 600px;
+	height: 360px;
+	border-radius: 25px;
+
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	background-color: rgba(0,0,0,.70);
+}
+
+.text_about {
+
+	position: relative;
+	height: 100%;
+	width: 570px;
+
+	background-color:;
+	color: #fff;
+	left: 15px;
+	top: 60px;
+
+	
+	
+
+
+
+}
+
+.text_about p {
+	font-size: 17px;
+	text-align: center;
+	float: left;
+	font-family: "RobotoCondensedRegular";
+
+}
+.dop {
+
+	clear: both;
+}
+
 html {
 	height: 100%;
 }
@@ -312,6 +359,7 @@ html {
 
 .tex_in_hed {
 	font-size: 14px;
+
 }
 
 .btn {
@@ -322,6 +370,17 @@ html {
 	width: 100px;
 	height: 40px;
 	} 
+
+.about_block {
+
+	z-index:;
+	width: 400px;
+	height: 50px;
+	background-color: black;
+
+
+}
+
 
 
 
