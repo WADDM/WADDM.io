@@ -394,8 +394,8 @@ html {
 	position: relative;
 	margin: 0 auto;
 	margin-top: 35px;
-	width: 600px;
-	height: 260px;
+	width: 90%;
+	height: auto;
 	border-radius: 25px;
 
 	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
@@ -483,6 +483,26 @@ html {
 }
 
 @media (min-width: 1023px) {
+
+	.about_block {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 35px;
+	width: 80%;
+	height: auto;
+	border-radius: 25px;
+
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	background-color: rgba(0,0,0,.70);
+	box-sizing: border-box;
+	padding: 5%;
+	color: #fff;
+}
+
+.about_block p {
+	font-size: 18px;
+}
 
 
 
