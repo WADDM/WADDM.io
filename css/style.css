@@ -289,13 +289,21 @@ footer {
 	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
 	box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
 	background-color: rgba(0,0,0,.70);
+	box-sizing: border-box;
+	padding: 8%;
+	color: #fff;
+
+
+
 }
 
-.text_about {
+/*.text_about {
 
 	position: relative;
 	height: 100%;
 	width: 570px;
+	box-sizing: border-box;
+	padding: 20px;
 
 	background-color:;
 	color: #fff;
@@ -307,7 +315,7 @@ footer {
 
 
 
-}
+}*/
 
 .text_about p {
 	font-size: 17px;
@@ -355,6 +363,7 @@ html {
 	margin-top: 10px;
 	font-size: 22px;
 	margin-bottom: 5px;
+	
 }
 
 .tex_in_hed {
@@ -381,6 +390,26 @@ html {
 
 }
 
+.about_block {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 35px;
+	width: 600px;
+	height: 260px;
+	border-radius: 25px;
+
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	background-color: rgba(0,0,0,.70);
+	box-sizing: border-box;
+	padding: 5%;
+	color: #fff;
+}
+
+.about_block p {
+	font-size: 16px;
+}
+
 
 
 
@@ -400,16 +429,43 @@ html {
 
 
 
+
+
+
+
 }
 
 @media (max-width: 480px) {
 	.site-header {
 		height: 200px;
 	}
+
+	.about_block {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 400px;
+	height: 120px;
+	border-radius: 25px;
+
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	background-color: rgba(0,0,0,.70);
+	box-sizing: border-box;
+	padding: 2%;
+	color: #fff;
+}
+
+.about_block p {
+	font-size: 10px;
+}
+
 	
 }
 
 @media (min-width: 1023px) {
-	
+
+
+
 	}
 }
