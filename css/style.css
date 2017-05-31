@@ -427,6 +427,25 @@ html {
 	margin-top: 150px;
 }
 
+.about_block {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 10px;
+	width: 90%;
+	height: auto;
+	border-radius: 25px;
+
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
+	background-color: rgba(0,0,0,.70);
+	box-sizing: border-box;
+	padding: 2%;
+	color: #fff;
+}
+.about_block p {
+	font-size: 13px;
+}
+
 
 
 
@@ -444,8 +463,8 @@ html {
 	position: relative;
 	margin: 0 auto;
 	margin-top: 10px;
-	width: 400px;
-	height: 120px;
+	width: 90%;
+	height: auto;
 	border-radius: 25px;
 
 	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 0px; 
@@ -457,7 +476,7 @@ html {
 }
 
 .about_block p {
-	font-size: 10px;
+	font-size: 8px;
 }
 
 	
